@@ -2,11 +2,11 @@
 
 ## I. Windows
 
-### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. Check windows version and ram
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. Check windows version and ram
 ```
 	systeminfo
 ```
-	
+
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2. Get CPU name
 ```
 	wmic cpu get name
