@@ -65,7 +65,7 @@ that everything is fixed correctly.
 
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5. VSCode
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Package: <br>
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Auto Import
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Auto Import
 	
 ## III. Angular
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. Create new project
@@ -74,14 +74,14 @@ that everything is fixed correctly.
 ```
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2. Create component 
 ```
-// Angular generate component
+	// Angular generate component
 	ng g c <component name>	
 ```
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3. Install bootstrap
 ```
 	npm install bootstrap --save 
 ```
-src/style.css
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; src/style.css
 ```
 	@import "~bootstrap/dist/css/bootstrap.css";
 ```
