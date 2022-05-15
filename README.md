@@ -4,12 +4,12 @@
 
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. Check windows version and ram
 ```
-systeminfo
+		systeminfo
 ```
 
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2. Get CPU name
 ```
-wmic cpu get name
+		wmic cpu get name
 
 ```
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3. Get Hard drive info
