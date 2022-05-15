@@ -1,12 +1,12 @@
 # CMD
 
 ## I. Windows
-### 	1. Check windows version and ram
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. Check windows version and ram
 ```
 systeminfo
 ```
 
-### 	2. Get CPU name
+### \t 2. Get CPU name
 ```
 wmic cpu get name
 
@@ -42,9 +42,9 @@ chkdsk /r
 
 ## II. Installation
 ### Node js
-```
-https://nodejs.org/en/download/
-```
+
+[Download Node Js](https://nodejs.org/en/download/)
+
 ### Install typescript:
 ```
 npm install -g typescript
