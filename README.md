@@ -1,27 +1,31 @@
 # CMD
 
 ## I. Windows
+**1. Check windows version and ram**
+**2. Get CPU name**
+**3. Get Hard drive info**
+4. 
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. Check windows version and ram
 ```
 systeminfo
 ```
 
-### \t 2. Get CPU name
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2. Get CPU name
 ```
 wmic cpu get name
 
 ```
-### 	3. Get Hard drive info
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3. Get Hard drive info
 ```
 wmic diskdrive get model, size, name, sialnumber, status
 ```
 
-### 	4. Get dell service tag
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4. Get dell service tag
 ```
 wmic bios get serialnumber
 ```
 
-### 	5. Diagnosis
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5. Diagnosis
 ```
 DISM /Online /Cleanup-Image /CheckHealth
 DISM /Online /Cleanup-Image /ScanHealth
@@ -29,7 +33,7 @@ DISM /Online /Cleanup-Image /RestoreHealth
 ```
 Should reboot, run ScanHealth and RestoreHealth couple time to see is there any error
 
-	### Use the System File Checker tool to repair missing or corrupted system files
+### Use the System File Checker tool to repair missing or corrupted system files
 ```
 SFC /scannow
 ```
