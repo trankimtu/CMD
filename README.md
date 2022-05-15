@@ -44,7 +44,7 @@ that everything is fixed correctly.
 ## II. Installation
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. Node js
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Download Node Js](https://nodejs.org/en/download/)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Download Node Js](https://nodejs.org/en/download/)
 
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2. Install typescript:
 ```
