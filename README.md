@@ -95,7 +95,7 @@ that everything is fixed correctly.
 ```
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; src/style.css
 ```
-	@import "~bootstrap-icons/font/bootstrap-icons.css";
+		@import "~bootstrap-icons/font/bootstrap-icons.css";
 ```
 
 ## Git
