@@ -1,10 +1,7 @@
 # CMD
 
 ## I. Windows
-**1. Check windows version and ram**
-**2. Get CPU name**
-**3. Get Hard drive info**
-4. 
+
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. Check windows version and ram
 ```
 systeminfo
@@ -33,7 +30,7 @@ DISM /Online /Cleanup-Image /RestoreHealth
 ```
 Should reboot, run ScanHealth and RestoreHealth couple time to see is there any error
 
-### Use the System File Checker tool to repair missing or corrupted system files
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6. Use the System File Checker tool to repair missing or corrupted system files
 ```
 SFC /scannow
 ```
@@ -45,42 +42,42 @@ chkdsk /r
 ```
 
 ## II. Installation
-### Node js
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. Node js
 
 [Download Node Js](https://nodejs.org/en/download/)
 
-### Install typescript:
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2. Install typescript:
 ```
 npm install -g typescript
 ```
 
-### Check typescript compiler version:
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3. Check typescript compiler version:
 ```
 tsc –v
 tsc --version
 ```
 
-### Run js file:
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4. Run js file:
 ```
 Node <file.js>
 tsc.ts | node main.js
 ```
 
-### VSCode
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5. VSCode
 Package: 
 	Auto Import
 	
 ## III. Angular
-### Create new project
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. Create new project
 ```
 ng new <Project name>
 ```
-### Create component 
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2. Create component 
 ```
 // Angular generate component
 ng g c <component name>	
 ```
-### Install bootstrap
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3. Install bootstrap
 ```
 npm install bootstrap --save 
 ```
@@ -88,7 +85,7 @@ src/style.css
 ```
 @import "~bootstrap/dist/css/bootstrap.css";
 ```
-### Install bootstrap icon
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4. Install bootstrap icon
 ```
 npm i bootstrap-icons
 ```
