@@ -2,7 +2,7 @@
 
 ## I. Windows
 
-### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. Check windows version and ram
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Check windows version and ram
 ```
 	systeminfo
 ```
