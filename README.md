@@ -4,12 +4,12 @@
 
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. Check windows version and ram
 ```
-		systeminfo
+	systeminfo
 ```
 
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2. Get CPU name
 ```
-		wmic cpu get name
+	wmic cpu get name
 
 ```
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3. Get Hard drive info
@@ -19,26 +19,26 @@ wmic diskdrive get model, size, name, sialnumber, status
 
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4. Get dell service tag
 ```
-wmic bios get serialnumber
+	wmic bios get serialnumber
 ```
 
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5. Diagnosis
 ```
-DISM /Online /Cleanup-Image /CheckHealth
-DISM /Online /Cleanup-Image /ScanHealth
-DISM /Online /Cleanup-Image /RestoreHealth
+	DISM /Online /Cleanup-Image /CheckHealth
+	DISM /Online /Cleanup-Image /ScanHealth
+	DISM /Online /Cleanup-Image /RestoreHealth
 ```
 Should reboot, run ScanHealth and RestoreHealth couple time to see is there any error
 
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6. Use the System File Checker tool to repair missing or corrupted system files
 ```
-SFC /scannow
+	SFC /scannow
 ```
 A quick tip: If errors were found, you might want to run the command about three times to make sure
 that everything is fixed correctly.
 
 ```
-chkdsk /r
+	chkdsk /r
 ```
 
 ## II. Installation
@@ -48,19 +48,19 @@ chkdsk /r
 
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2. Install typescript:
 ```
-npm install -g typescript
+	npm install -g typescript
 ```
 
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3. Check typescript compiler version:
 ```
-tsc –v
-tsc --version
+	tsc –v
+	tsc --version
 ```
 
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4. Run js file:
 ```
-Node <file.js>
-tsc.ts | node main.js
+	Node <file.js>
+	tsc.ts | node main.js
 ```
 
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5. VSCode
@@ -70,39 +70,39 @@ Package:
 ## III. Angular
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. Create new project
 ```
-ng new <Project name>
+	ng new <Project name>
 ```
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2. Create component 
 ```
 // Angular generate component
-ng g c <component name>	
+	ng g c <component name>	
 ```
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3. Install bootstrap
 ```
-npm install bootstrap --save 
+	npm install bootstrap --save 
 ```
 src/style.css
 ```
-@import "~bootstrap/dist/css/bootstrap.css";
+	@import "~bootstrap/dist/css/bootstrap.css";
 ```
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4. Install bootstrap icon
 ```
-npm i bootstrap-icons
+	npm i bootstrap-icons
 ```
 or
 ```
-npm i bootstrap-icons --save
+	npm i bootstrap-icons --save
 ```
 src/style.css
 ```
-@import "~bootstrap-icons/font/bootstrap-icons.css";
+	@import "~bootstrap-icons/font/bootstrap-icons.css";
 ```
 
 ## Git
 ```
-git init
-git add .
-git commit -m "first commit"
-git remote add orgin https://github.com/trankimtu/angular-favorite.git
-git push -u origin master
+	git init
+	git add .
+	git commit -m "first commit"
+	git remote add orgin https://github.com/trankimtu/angular-favorite.git
+	git push -u origin master
 ```
