@@ -1,6 +1,6 @@
 # CMD
 
-## Windows
+## I. Windows
 ### Check windows version and ram
 ```
 systeminfo
@@ -40,37 +40,41 @@ that everything is fixed correctly.
 chkdsk /r
 ```
 
-## Installation
+## II. Installation
 ### Node js
 ```
 https://nodejs.org/en/download/
 ```
 ### Install typescript:
 ```
-  npm install -g typescript
+npm install -g typescript
 ```
 
 ### Check typescript compiler version:
 ```
-	tsc –v
-	tsc --version
+tsc –v
+tsc --version
 ```
 
 ### Run js file:
 ```
-	Node <file.js>
-	tsc.ts | node main.js
+Node <file.js>
+tsc.ts | node main.js
 ```
 
-## Angular
+### VSCode
+Package: 
+	Auto Import
+	
+## III. Angular
 ### Create new project
 ```
-	ng new <Project name>
+ng new <Project name>
 ```
 ### Create component 
 ```
-	// Angular generate component
-  ng g c <component name>	
+// Angular generate component
+ng g c <component name>	
 ```
 ### Install bootstrap
 ```
