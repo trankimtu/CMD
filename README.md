@@ -1,27 +1,27 @@
 # CMD
 
 ## I. Windows
-	### 1. Check windows version and ram
+### 	1. Check windows version and ram
 ```
 systeminfo
 ```
 
-	### Get CPU name
+### 	2. Get CPU name
 ```
 wmic cpu get name
 
 ```
-	### Get Hard drive info
+### 	3. Get Hard drive info
 ```
 wmic diskdrive get model, size, name, sialnumber, status
 ```
 
-	### Get dell service tag
+### 	4. Get dell service tag
 ```
 wmic bios get serialnumber
 ```
 
-	### Diagnosis
+### 	5. Diagnosis
 ```
 DISM /Online /Cleanup-Image /CheckHealth
 DISM /Online /Cleanup-Image /ScanHealth
