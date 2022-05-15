@@ -81,7 +81,7 @@ that everything is fixed correctly.
 ```
 	npm install bootstrap --save 
 ```
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; src/style.css
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; src/style.css
 ```
 	@import "~bootstrap/dist/css/bootstrap.css";
 ```
@@ -89,11 +89,11 @@ that everything is fixed correctly.
 ```
 	npm i bootstrap-icons
 ```
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; or
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; or
 ```
 	npm i bootstrap-icons --save
 ```
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; src/style.css
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; src/style.css
 ```
 	@import "~bootstrap-icons/font/bootstrap-icons.css";
 ```
