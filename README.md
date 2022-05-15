@@ -2,7 +2,7 @@
 
 ## I. Windows
 
-### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. Check windows version and ram
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. Check windows version and ram
 ```
 	systeminfo
 ```
@@ -14,7 +14,7 @@
 ```
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3. Get Hard drive info
 ```
-wmic diskdrive get model, size, name, sialnumber, status
+	wmic diskdrive get model, size, name, sialnumber, status
 ```
 
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4. Get dell service tag
