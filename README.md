@@ -83,7 +83,7 @@ that everything is fixed correctly.
 ```
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; src/style.css
 ```
-	@import "~bootstrap/dist/css/bootstrap.css";
+		@import "~bootstrap/dist/css/bootstrap.css";
 ```
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4. Install bootstrap icon
 ```
