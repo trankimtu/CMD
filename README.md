@@ -76,16 +76,20 @@ that everything is fixed correctly.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Auto Import
 	
 ## III. Angular
-### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. Create new project
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. Install Angular CLI
+```
+	npm install -g @angular/cli
+```
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2. Create new project
 ```
 	ng new <Project name>
 ```
-### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2. Create component 
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3. Create component 
 ```
 	// Angular generate component
 	ng g c <component name>	
 ```
-### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3. Install bootstrap
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4. Install bootstrap
 ```
 	npm install bootstrap --save 
 ```
@@ -93,7 +97,7 @@ that everything is fixed correctly.
 ```
 		@import "~bootstrap/dist/css/bootstrap.css";
 ```
-### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4. Install bootstrap icon
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5. Install bootstrap icon
 ```
 	npm i bootstrap-icons
 ```
