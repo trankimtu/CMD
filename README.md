@@ -6,23 +6,30 @@
 ```
 	systeminfo
 ```
-
-### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2. Get CPU name
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2. Reboot
+```
+	shutdown /r /t 0
+```
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3. Shutdown
+```
+	shutdown /s /t 0
+```
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4. Get CPU name
 ```
 	wmic cpu get name
 
 ```
-### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3. Get Hard drive info
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5. Get Hard drive info
 ```
 	wmic diskdrive get model, size, name, sialnumber, status
 ```
 
-### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4. Get dell service tag
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6. Get dell service tag
 ```
 	wmic bios get serialnumber
 ```
 
-### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5. Diagnosis
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 7. Diagnosis
 ```
 	DISM /Online /Cleanup-Image /CheckHealth
 	DISM /Online /Cleanup-Image /ScanHealth
@@ -30,7 +37,7 @@
 ```
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Should reboot, run ScanHealth and RestoreHealth couple time to see is there any error
 
-### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6. Use the System File Checker tool to repair missing or corrupted system files
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 8. Use the System File Checker tool to repair missing or corrupted system files
 ```
 	SFC /scannow
 ```
@@ -45,6 +52,7 @@ that everything is fixed correctly.
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. Node js
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Download Node Js](https://nodejs.org/en/download/)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; reboot computer
 
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2. Install typescript:
 ```
