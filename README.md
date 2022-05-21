@@ -94,7 +94,13 @@ that everything is fixed correctly.
 	// Angular generate service
 	ng g s <service name>	
 ```
-### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5. Install bootstrap
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5. Create pipe 
+```
+	// Angular generate pipe
+	ng g p <pipe-name>
+```
+
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6. Install bootstrap
 ```
 	npm install bootstrap --save 
 ```
@@ -102,7 +108,7 @@ that everything is fixed correctly.
 ```
 		@import "~bootstrap/dist/css/bootstrap.css";
 ```
-### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6. Install bootstrap icon
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 7. Install bootstrap icon
 ```
 	npm i bootstrap-icons
 ```
