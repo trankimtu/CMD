@@ -1,3 +1,22 @@
+# Run
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. User account: reset admin password
+```
+	netplwiz
+```
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2. Change PC name 
+```
+	sysdm.cpl
+```
+
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3. Control Panel Power setting
+```
+	powercfg.cpl
+```
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4. Stop, start Symantec
+```
+	Smc -stop
+	Smc -start	
+```
 # CMD
 
 ## I. Windows
