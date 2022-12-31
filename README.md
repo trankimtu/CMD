@@ -67,6 +67,11 @@ that everything is fixed correctly.
 	chkdsk /r
 ```
 
+
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 9. Add printer 
+```
+	rundll32 printui.dll,PrintUIEntry /il
+```
 ## II. Installation
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. Node js
 
