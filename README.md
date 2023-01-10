@@ -72,6 +72,90 @@ that everything is fixed correctly.
 ```
 	rundll32 printui.dll,PrintUIEntry /il
 ```
+
+# Run
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. User account: reset admin password
+```
+	netplwiz
+```
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2. Change PC name 
+```
+	sysdm.cpl
+```
+
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3. Control Panel Power setting
+```
+	powercfg.cpl
+```
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4. Stop, start Symantec
+```
+	Smc -stop
+	Smc -start	
+```
+# CMD
+
+## I. Windows
+
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. Check windows version and ram
+```
+	systeminfo
+```
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2. Reboot
+```
+	shutdown /r /t 0
+```
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3. Shutdown
+```
+	shutdown /s /t 0
+```
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4. Get CPU name
+```
+	wmic cpu get name
+
+```
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5. Get Hard drive info
+```
+	wmic diskdrive get model, size, name, sialnumber, status
+```
+
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6. Get dell service tag
+```
+	wmic bios get serialnumber
+```
+
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 7. Diagnosis
+```
+	DISM /Online /Cleanup-Image /CheckHealth
+	DISM /Online /Cleanup-Image /ScanHealth
+	DISM /Online /Cleanup-Image /RestoreHealth
+```
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Should reboot, run ScanHealth and RestoreHealth couple time to see is there any error
+
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 8. Use the System File Checker tool to repair missing or corrupted system files
+```
+	SFC /scannow
+```
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A quick tip: If errors were found, you might want to run the command about three times to make sure
+that everything is fixed correctly.
+
+```
+	chkdsk /r
+```
+
+
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 10. By pass microsoft account in windows setup 
+```
+Shift + F10 : Open terminal
+
+netsh interface show interface
+
+C:\> netsh interface set interface name="Wi-fi" admin=disabled
+
+OOBE\BYPASSNRO
+
+C:\> netsh interface set interface name="Wi-fi" admin=enabled
+
+
 ## II. Installation
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. Node js
 
