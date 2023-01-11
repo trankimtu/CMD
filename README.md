@@ -147,14 +147,14 @@ that everything is fixed correctly.
 ```
 Shift + F10 : Open terminal
 
-netsh interface show interface
+C:\> netsh interface show interface
 
 C:\> netsh interface set interface name="Wi-fi" admin=disabled
 
-OOBE\BYPASSNRO
+C:\> OOBE\BYPASSNRO
 
 C:\> netsh interface set interface name="Wi-fi" admin=enabled
-
+```
 
 ## II. Installation
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. Node js
