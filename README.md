@@ -1,3 +1,8 @@
+# Wacom
+```
+Wacom Tablet Properties - Mapping - Untick "Use Windows Ink"
+```
+
 # Run
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. User account: reset admin password
 ```
