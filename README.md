@@ -1,7 +1,7 @@
 # Wacom
 ```
 Wired connect to PC
-[Download driver](https://www.wacom.com/start/intuos/)
+[Download driver]: (https://www.wacom.com/start/intuos/)
 Wacom Tablet Properties - Mapping - Untick "Use Windows Ink"
 ```
 
