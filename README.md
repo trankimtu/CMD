@@ -25,6 +25,15 @@ Wacom Tablet Properties - Mapping - Untick "Use Windows Ink"
 	Smc -stop
 	Smc -start	
 ```
+
+### Delete Port
+```
+	printmanagement.msc
+	>> Print Servers 
+	>> <Computer's name> 
+	>> Ports
+	>> Delete any port you want to
+```
 # CMD
 
 ## I. Windows
