@@ -35,10 +35,6 @@ Wacom Tablet Properties - Mapping - Untick "Use Windows Ink"
 	>> Delete any port you want to
 ```
 
-### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6. Enable / Reset password
-```
-	netplwiz 
-```
 # CMD
 
 ## I. Windows
