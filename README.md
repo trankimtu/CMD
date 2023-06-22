@@ -247,3 +247,7 @@ Computer Management
 >>> Open Files
 Find the file, right click > Close Open File
 ```
+## II. Active Directory Users and Computers
+```
+Create group, manage permission
+```
