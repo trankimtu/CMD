@@ -85,62 +85,10 @@ that everything is fixed correctly.
 	chkdsk /r
 ```
 
-
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 9. Add printer 
 ```
 	rundll32 printui.dll,PrintUIEntry /il
 ```
-
-# CMD
-
-## I. Windows
-
-### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. Check windows version and ram
-```
-	systeminfo
-```
-### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2. Reboot
-```
-	shutdown /r /t 0
-```
-### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3. Shutdown
-```
-	shutdown /s /t 0
-```
-### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4. Get CPU name
-```
-	wmic cpu get name
-
-```
-### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5. Get Hard drive info
-```
-	wmic diskdrive get model, size, name, sialnumber, status
-```
-
-### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6. Get dell service tag
-```
-	wmic bios get serialnumber
-```
-
-### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 7. Diagnosis
-```
-	DISM /Online /Cleanup-Image /CheckHealth
-	DISM /Online /Cleanup-Image /ScanHealth
-	DISM /Online /Cleanup-Image /RestoreHealth
-```
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Should reboot, run ScanHealth and RestoreHealth couple time to see is there any error
-
-### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 8. Use the System File Checker tool to repair missing or corrupted system files
-```
-	SFC /scannow
-```
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A quick tip: If errors were found, you might want to run the command about three times to make sure
-that everything is fixed correctly.
-
-```
-	chkdsk /r
-```
-
 
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 10. By pass microsoft account in windows setup 
 ```
@@ -228,11 +176,74 @@ C:\> netsh interface set interface name="Wi-fi" admin=enabled
 		@import "~bootstrap-icons/font/bootstrap-icons.css";
 ```
 
-## Git
+## IV. Git
 ```
 	git init
 	git add .
 	git commit -m "first commit"
 	git remote add orgin https://github.com/trankimtu/angular-favorite.git
 	git push -u origin master
+```
+
+# Windows Server
+## I. Computer Management
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. Create Share drive
+```
+File Explorer
+To assign file share permissions by using File Explorer:
+
+Open File Explorer.
+
+Select and hold (or right-click) the D:\SymStore\Symbols folder and select Properties.
+
+Select the Sharing tab.
+
+Select Advanced Sharing.
+
+In Advanced Sharing, select the Share this folder checkbox, and then select Permissions.
+
+In Share Permissions, select Everyone, and then select Remove.
+
+Select Add and enter the users or groups you want to access the file share.
+
+For each user or group you add, select Allow to assign Full Control, Change, or Read permissions.
+
+Select Apply, and then select OK.
+
+Select OK, and then select Close.
+
+Computer Management
+To assign file share permissions by using Computer Management:
+
+Select and hold (or right-click) Start and select Computer Management.
+
+In the console tree, select System Tools > Shared Folders > Shares.
+
+Select and hold (or right-click) and select New > Share.
+
+In Create A Shared Folder Wizard, select Next.
+
+For Folder path, enter D:\SymStore\Symbols, and then select Next.
+
+Select Next.
+
+In Shared Folder Permissions, select Customize permissions, and then select Custom.
+
+In Share Permissions, select Everyone, and then select Remove.
+
+Select Add and enter the users or groups you want to access the file share.
+
+For each user or group you add, select Allow to assign Full Control, Change, or Read permissions.
+
+Select Apply, and then select OK.
+
+Select Finish twice.
+```
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2. Force close shared opened file
+```
+Computer Management
+> System tools
+>> Shared Folders
+>>> Open Files
+Find the file, right click > Close Open File
 ```
