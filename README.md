@@ -5,7 +5,15 @@
 Wired connect to PC
 Wacom Tablet Properties - Mapping - Untick "Use Windows Ink"
 ```
+# Boot up Dell PC
+### Diagnostics
+```
+	Turn on machine
+	Tab F12 key when see dell logo
+	Select Diagnostics
+	Result "No error found"
 
+```
 # Run
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. User account: reset admin password
 ```
