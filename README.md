@@ -19,8 +19,12 @@ Wacom Tablet Properties - Mapping - Untick "Use Windows Ink"
 	1. Restart your computer
 	2. Once the Dell logo appears, press F2 repeatedly until the BIOS menu opens
 	3. In the BIOS menu, locate Load defaults, and Confirm
+		Setting -> General -> Battery Information -> Restore setting
 	4. Exit the BIOS by pressing Exit or F10 and confirming with Enter
 ```
+
+### Boot into the Windows Recovery Environment
+
 # Run
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. User account: reset admin password
 ```
