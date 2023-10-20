@@ -121,7 +121,11 @@ C:\> OOBE\BYPASSNRO
 
 C:\> netsh interface set interface name="Wi-fi" admin=enabled
 ```
-
+### Activate windows server 2022 VM
+Not key sensitive
+```
+DISM /Online /Set-Edition:Serverstandard /Productkey:XXXXX-XXXXX-XXXXX-XXXXX-XXXXX /AcceptEula
+```
 ## II. Installation
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. Node js
 
