@@ -126,6 +126,10 @@ Not key sensitive
 ```
 DISM /Online /Set-Edition:Serverstandard /Productkey:XXXXX-XXXXX-XXXXX-XXXXX-XXXXX /AcceptEula
 ```
+### Copy files and folders
+```
+	robocopy
+```
 ## II. Installation
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. Node js
 
