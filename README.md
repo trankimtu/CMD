@@ -84,12 +84,18 @@ Wacom Tablet Properties - Mapping - Untick "Use Windows Ink"
 ```
 	wmic bios get serialnumber
 ```
-### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 7. Get current edition of windows
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 7. Get bios version
+```
+	wmic bios get biosversion
+```
+
+
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 8. Get current edition of windows
 ```
 	dism /online /get-currentedition
 ```
 
-### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 8. Diagnosis
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 9. Diagnosis
 ```
 	DISM /Online /Cleanup-Image /CheckHealth
 	DISM /Online /Cleanup-Image /ScanHealth
@@ -97,7 +103,7 @@ Wacom Tablet Properties - Mapping - Untick "Use Windows Ink"
 ```
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Should reboot, run ScanHealth and RestoreHealth couple time to see is there any error
 
-### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 9. Use the System File Checker tool to repair missing or corrupted system files
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 10. Use the System File Checker tool to repair missing or corrupted system files
 ```
 	SFC /scannow
 ```
@@ -108,12 +114,12 @@ that everything is fixed correctly.
 	chkdsk /r
 ```
 
-### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 10. Add printer 
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11. Add printer 
 ```
 	rundll32 printui.dll,PrintUIEntry /il
 ```
 
-### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11. By pass microsoft account in windows setup 
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 12. By pass microsoft account in windows setup 
 ```
 Shift + F10 : Open terminal
 
