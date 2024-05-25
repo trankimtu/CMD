@@ -112,6 +112,7 @@ that everything is fixed correctly.
 
 ```
 	chkdsk /r
+	chkdsk /f
 ```
 
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11. Add printer 
