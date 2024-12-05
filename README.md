@@ -125,7 +125,7 @@ that everything is fixed correctly.
 	printui /s /t2
 ```
 
-### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 12. By pass microsoft account in windows setup 
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 13. By pass microsoft account in windows setup 
 ```
 Shift + F10 : Open terminal
 
