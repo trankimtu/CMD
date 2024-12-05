@@ -120,6 +120,11 @@ that everything is fixed correctly.
 	rundll32 printui.dll,PrintUIEntry /il
 ```
 
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 12. Remove printer 
+```
+	printui /s /t2
+```
+
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 12. By pass microsoft account in windows setup 
 ```
 Shift + F10 : Open terminal
