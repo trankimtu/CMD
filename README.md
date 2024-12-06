@@ -149,8 +149,18 @@ that everything is fixed correctly.
 ```
 	printui /s /t2
 ```
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 13. Remove printer driver update in Windows Update
+<ul>
+	<li>gpedit.msc</li>
+	<li>Computer Configuration</li>
+	<li>Administrative Templates</li>
+	<li>Windows Components</li>
+	<li>Windows Update</li>
+	<li>Do not include drivers with windows update</li>
+	<li>Enable</li>
+</ul>
 
-### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 13. By pass microsoft account in windows setup 
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 14. By pass microsoft account in windows setup 
 ```
 Shift + F10 : Open terminal
 
