@@ -6,6 +6,31 @@ Wired connect to PC
 Wacom Tablet Properties - Mapping - Untick "Use Windows Ink"
 ```
 # Boot up Dell PC
+### Safe Mode
+Windows 10
+<ul>
+	<li>Shart</li>
+	<li>Power</li>
+	<li>Shift + Click Restart</li>
+</ul>
+Windows 11
+<ul>
+	<li>Setting</li>
+	<li>Update & Security</li>
+	<li>Recovery</li>
+	<li>Restart now</li>
+	<li>Troubleshoot</li>
+	<li>Advance options</li>
+	<li>Startup Settings</li>
+	<li>Restart</li>
+</ul>
+
+
+
+
+
+
+
 ### Diagnostics
 ```
 	Turn on machine
