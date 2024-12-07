@@ -175,7 +175,6 @@ C:\> netsh interface set interface name="Wi-fi" admin=enabled
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 15. Check SUM
 ```
 certutil -hashfile "filename.ext" SHA512
-
 ```
 
 ### Activate windows server 2022 VM
