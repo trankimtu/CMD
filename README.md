@@ -181,7 +181,10 @@ C:\> netsh interface set interface name="Wi-fi" admin=enabled
 ```
 certutil -hashfile "filename.ext" SHA512
 ```
-
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 16. Upgrade Office 365
+```
+"C:\Program Files\Common Files\microsoft shared\ClickToRun\OfficeC2RClient.exe" /update user
+```
 ### Activate windows server 2022 VM
 Not key sensitive
 ```
