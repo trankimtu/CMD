@@ -128,7 +128,11 @@ Windows 11
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 9. Diagnosis
 ```
 	DISM /Online /Cleanup-Image /CheckHealth
+```
+```
 	DISM /Online /Cleanup-Image /ScanHealth
+```
+```
 	DISM /Online /Cleanup-Image /RestoreHealth
 ```
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Should reboot, run ScanHealth and RestoreHealth couple time to see is there any error
