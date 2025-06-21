@@ -189,6 +189,14 @@ certutil -hashfile "filename.ext" SHA512
 ```
 "C:\Program Files\Common Files\microsoft shared\ClickToRun\OfficeC2RClient.exe" /update user
 ```
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 17. Check using IP
+```
+for /L %i in (1,1,254) do @ping -n 1 -w 100 192.168.1.%i >nul && echo 192.168.1.%i is active
+```
+```
+arp -a
+```
+
 ### Activate windows server 2022 VM
 Not key sensitive
 ```
