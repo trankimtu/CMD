@@ -135,6 +135,10 @@ Windows 11
 ```
 	DISM /Online /Cleanup-Image /RestoreHealth
 ```
+RestoreHealth from iso file: (replace D: by iso drive)
+```
+	DISM /Online /Cleanup-Image /RestoreHealth /Source:D:\sources\install.wim /LimitAccess
+```
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Should reboot, run ScanHealth and RestoreHealth couple time to see is there any error
 
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 10. Use the System File Checker tool to repair missing or corrupted system files
