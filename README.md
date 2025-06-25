@@ -137,6 +137,13 @@ Windows 11
 ```
 RestoreHealth from iso file: (replace D: by iso drive)
 ```
+	dism /Get-WimInfo /WimFile:D:\sources\install.wim
+```
+Replace :1 with the correct index number from the previous step.
+```
+	DISM /Online /Cleanup-Image /RestoreHealth /Source:D:\sources\install.wim:1 /LimitAccess
+```
+```
 	DISM /Online /Cleanup-Image /RestoreHealth /Source:D:\sources\install.wim /LimitAccess
 ```
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Should reboot, run ScanHealth and RestoreHealth couple time to see is there any error
