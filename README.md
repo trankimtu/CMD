@@ -298,7 +298,11 @@ DISM /Online /Set-Edition:Serverstandard /AcceptEula /Productkey:XXXXX-XXXXX-XXX
 	git remote add orgin https://github.com/trankimtu/angular-favorite.git
 	git push -u origin master
 ```
-
+## V. Enagle Manual Check Update Acrobat reader
+change bUpdate to 1
+```
+Computer\HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Policies\Adobe\Adobe Acrobat\DC\FeatureLockDown
+```
 # Windows Server
 ## I. Computer Management
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. Create Share drive
