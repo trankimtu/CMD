@@ -54,6 +54,13 @@ Windows 11
 ```
 
 ### Boot into the Windows Recovery Environment
+# Enable check update on Acrobat
+<ul>
+	<li>Opening Registry Editor (Windows).</li>
+	<li>Navigating to: HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Adobe\Acrobat Reader\<version>\FeatureLockDown</li>
+	<li>Creating or modifying the bUpdater DWORD value:</li>
+	<li>Set it to 1 to enable updates.</li>
+</ul>
 
 # Run
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. User account: reset admin password
