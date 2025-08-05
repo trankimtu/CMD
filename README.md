@@ -148,6 +148,20 @@ DISM /Online /Cleanup-Image /RestoreHealth /Source:D:\sources\install.wim /Limit
 ```
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Should reboot, run ScanHealth and RestoreHealth couple time to see is there any error
 
+```
+Net Stop bits
+Net Stop wuauserv
+Net Stop appidsvc
+Net Stop cryptsvc
+Ren %Systemroot%\SoftwareDistribution\DataStore DataStore.bak
+Ren %Systemroot%\SoftwareDistribution\Download Download.bak
+Ren %Systemroot%\System32\catroot2 catroot2.bak
+Del "%ALLUSERSPROFILE%\Application Data\Microsoft\Network\Downloader\qmgr*.dat"
+Net Start bits
+Net Start wuauserv
+Net Start appidsvc
+Net Start cryptsvc
+```
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 10. Use the System File Checker tool to repair missing or corrupted system files
 ```
 SFC /scannow
