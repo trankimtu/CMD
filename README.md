@@ -194,6 +194,17 @@ that everything is fixed correctly.
 ```
 	printui /s /t2
 ```
+Clear printer spool<br>
+
+Stop Service
+```
+Print Spoolers
+```
+Delete
+```
+C:\Windows\System32\spool\PRINTERS
+```
+
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 13. Remove printer driver update in Windows Update
 <ul>
 	<li>gpedit.msc</li>
