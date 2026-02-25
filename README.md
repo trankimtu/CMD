@@ -243,7 +243,11 @@ for /L %i in (1,1,254) do @ping -n 1 -w 100 192.168.1.%i >nul && echo 192.168.1.
 ```
 arp -a
 ```
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 18. Bitlocker ID and Recovery Key
 
+```
+manage-bde -protectors -get C:
+```
 ### Activate windows server 2022 VM
 Not key sensitive
 ```
