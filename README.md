@@ -146,6 +146,9 @@ Windows 11
 ```
 	DISM /Online /Cleanup-Image /RestoreHealth
 ```
+```
+	DISM /Image:C:\ /Cleanup-Image /RestoreHealth
+```
 RestoreHealth from iso file: (replace D: by iso drive)
 ```
 	dism /Get-WimInfo /WimFile:D:\sources\install.wim
